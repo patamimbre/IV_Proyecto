@@ -1,3 +1,3 @@
 Infraestructura Virtual
 ====
-Repositorio para la asignatura IV cursada en la UGR.
+Repositorio principal para la asignatura IV cursada en la UGR.
