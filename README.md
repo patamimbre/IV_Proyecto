@@ -7,3 +7,10 @@ Por otra parte también ofrecerá recordatorios y un calendario con todos las ta
 
 ---
 
+#### Herramientas para la realización del proyecto:
+
+* **Ruby** como lenguaje de programación
+* Base de Datos *noSQL* **MongoDB**
+* **[MongoMapper](http://mongomapper.com/)** para gestión de DB desde Ruby
+* API de Telegram
+* **AWS** para el despliegue en la nube
