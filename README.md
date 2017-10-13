@@ -1,6 +1,8 @@
 Infraestructura Virtual
 ====
 
+![travisci](https://travis-ci.org/patamimbre/IV_Proyecto.svg?branch=master)
+
 ### Escaner de servicios
 
 Este módulo forma parte de un programa mayor en el [repositorio](https://github.com/LazyHackerOrg/LazyHacker). Se trata de un __escaner de puertos y servicios__ que emplea *nmap* para lograrlo. Finalmente devolverá los equipos escaneados con los puertos y servicios corriendo sobre él.
