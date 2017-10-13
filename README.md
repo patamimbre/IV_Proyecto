@@ -16,3 +16,4 @@ Este módulo forma parte de un programa mayor en el [repositorio](https://github
 * **[MongoMapper](http://mongomapper.com/)** para gestión de DB desde Ruby
 * **Heroku** para el despliegue en la nube
 * **Nmap** para el escaneo de puertos
+* **Travis-CI** para integración continua
