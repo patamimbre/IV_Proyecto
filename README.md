@@ -1,7 +1,7 @@
 Infraestructura Virtual
 ====
 
-![travisci](https://travis-ci.org/patamimbre/IV_Proyecto.svg?branch=master)
+[![Build Status](https://travis-ci.org/patamimbre/IV_Proyecto.svg?branch=master)](https://travis-ci.org/patamimbre/IV_Proyecto)
 
 ### Escaner de servicios
 
