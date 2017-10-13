@@ -1,13 +1,13 @@
 languaje: ruby
 rvm:
- -2.4.2
- -2.3
+ - 2.4.2
+ - 2.3
 
 sudo: enabled
 
 before_install:
- -gem install bundle
- -bundle install
+ - gem install bundle
+ - bundle install
 
 script: rake 
  
