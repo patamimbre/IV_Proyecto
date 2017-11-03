@@ -1,1 +1,1 @@
-web: bundle exec ruby lib/api_rest.rb -p $PORT
+web: bundle exec rackup config.ru -p $PORT

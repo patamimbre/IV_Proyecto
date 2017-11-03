@@ -1,2 +1,2 @@
-require 'lib/api_rest.rb'
+require './lib/api_rest.rb'
 run Sinatra::Application
