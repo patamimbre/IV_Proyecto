@@ -23,24 +23,23 @@ describe "API REST" do
   end
 
   context "GET to /search/:id" do
-
+    let (:response) { get '/search/CVE-2009-3800' }
 
     it "returns status 200 OK" do
       last_response.status.to eql 200
     end
 
     it "displays cve info"
-    it "display incorrect cve"
   end
 
   context "GET to /yyyy/mm" do
+    let (:response) { get '/2015/9' }
 
     it "returns status 200 OK" do
       last_response.status.to eql 200
     end
 
     it "displays all cves in a date"
-    it "display incorrect date"
   end
 
 
