@@ -25,7 +25,6 @@ GEM
     rspec-expectations (3.7.0)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.7.0)
-    rspec-json_expectations (2.1.0)
     rspec-mocks (3.7.0)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.7.0)
@@ -49,9 +48,8 @@ DEPENDENCIES
   rack-test
   rake
   rspec
-  rspec-json_expectations
   ruby-nmap (~> 0.8.0)
   sinatra
 
 BUNDLED WITH
-   1.15.4
+   1.16.0
