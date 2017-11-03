@@ -13,17 +13,32 @@ describe "API REST" do
   end
 
   context "GET to /" do
+    let (:response) { get '/' }
+
     it "displays json test"
+
+    it "returns status 200 OK" do
+      last_response.status.to eql 200
+    end
   end
 
   context "GET to /search/:id" do
-    it "returns status 200 OK"
+
+
+    it "returns status 200 OK" do
+      last_response.status.to eql 200
+    end
+
     it "displays cve info"
     it "display incorrect cve"
   end
 
   context "GET to /yyyy/mm" do
-    it "returns status 200 OK"
+
+    it "returns status 200 OK" do
+      last_response.status.to eql 200
+    end
+
     it "displays all cves in a date"
     it "display incorrect date"
   end
