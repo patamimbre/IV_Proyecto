@@ -5,3 +5,6 @@ gem 'ruby-nmap', '~> 0.8.0'
 gem "nokogiri"
 gem 'mongo'
 gem 'sinatra'
+gem 'rake' 
+gem 'rspec'
+gem 'rack-test'
