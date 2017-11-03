@@ -13,33 +13,33 @@ describe "API REST" do
   end
 
   context "GET to /" do
-    let (:response) { get '/' }
 
     it "displays json test"
 
     it "returns status 200 OK" do
-      last_response.status.to eql 200
+      get '/'
+      expect(last_response).to be_ok
     end
   end
 
   context "GET to /search/:id" do
-    let (:response) { get '/search/CVE-2009-3800' }
 
     it "returns status 200 OK" do
-      last_response.status.to eql 200
+      get '/search/CVE-2009-3800'
+      expect(last_response).to be_ok
     end
 
     it "displays cve info"
   end
 
-  context "GET to /yyyy/mm" do
-    let (:response) { get '/2015/9' }
+  context "GET to /service/:service" do
 
     it "returns status 200 OK" do
-      last_response.status.to eql 200
+      get '/service/asd'
+      expect(last_response).to be_ok
     end
 
-    it "displays all cves in a date"
+    it "displays cves of service"
   end
 
 
