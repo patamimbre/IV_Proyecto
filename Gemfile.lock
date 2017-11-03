@@ -2,6 +2,8 @@ GEM
   remote: https://rubygems.org/
   specs:
     bson (4.2.2)
+    cuba (3.8.1)
+      rack (>= 1.6.0)
     mini_portile2 (2.3.0)
     mongo (2.4.3)
       bson (>= 4.2.1, < 5.0.0)
@@ -26,6 +28,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  cuba
   mongo
   nokogiri
   ruby-nmap (~> 0.8.0)
