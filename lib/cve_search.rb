@@ -1,6 +1,7 @@
 require 'nokogiri'
 require 'open-uri'
 require 'date'
+require 'json'
 
 class CVESearch
 
@@ -31,10 +32,10 @@ class CVESearch
     url = "http://www.cvedetails.com/cve-details.php?cve_id="+cve_id
     doc = Nokogiri::HTML(open(url))
 
-    puts cve_id
-
     begin
       if !doc.css('h1').empty?    # Algunos CVEs están en nvd.nist pero no en cvedetails
+
+        cve[:id] = cve_id
 
         # CVSS Scores
         score_table = doc.css('table#cvssscorestable').css('td')
@@ -49,7 +50,7 @@ class CVESearch
         cve[:cwe_id] = score_table[8].css('a')[0]
 
         # Extrae el texto
-        cve.each do |key,val|
+        cve.drop(1).each do |key,val|
           if val.nil?
             cve[key] = ""
           else
@@ -91,7 +92,8 @@ class CVESearch
         cve[:products] = products
 
         cve
-        # => {:score=>"4.0",
+        # => {:name=>"CVE-1234-1234"
+        #     :score=>"4.0",
         #     :confidenciality=>"None",
         #     :integrity=>"None",
         #     :availability=>"Partial",
@@ -117,5 +119,5 @@ class CVESearch
 end
 
 cve = CVESearch.new
-#puts cve.search_by_id('CVE-2013-3204')
+puts cve.search_by_id('CVE-2013-3204').to_json
 #puts cve.search_by_month('2009/6')
