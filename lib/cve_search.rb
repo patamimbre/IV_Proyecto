@@ -81,7 +81,9 @@ class CVESearch
             if val.nil?
               a_product[key] = ""
             else
-              a_product[key] = val.text.split
+              un_val = val.text.lstrip.rstrip #elimina los espacios en blanco al principio y al final
+              un_val = un_val.downcase.gsub(' ','-')
+              a_product[key] = un_val
             end
           end
 
@@ -118,6 +120,6 @@ class CVESearch
 
 end
 
-cve = CVESearch.new
-puts cve.search_by_id('CVE-2013-3204').to_json
+#cve = CVESearch.new
+#puts cve.search_by_id('CVE-2013-3204').to_json
 #puts cve.search_by_month('2009/6')

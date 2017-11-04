@@ -2,11 +2,7 @@ require 'sinatra'
 require 'json'
 
 get '/' do
-  {'status' => 'ok',
-   'ejemplo' =>
-       {'ruta' => "/search/CVE-test",
-        'valor' => {'status'=>'bad_id'}.to_json
-       }}.to_json
+  {'status' => 'ok'}.to_json
 end
 
 get '/search/:id' do |id|
