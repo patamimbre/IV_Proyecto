@@ -3,17 +3,24 @@ Infraestructura Virtual
 
 [![Build Status](https://travis-ci.org/patamimbre/IV_Proyecto.svg?branch=master)](https://travis-ci.org/patamimbre/IV_Proyecto)
 
-### Escaner de servicios
+### Descripción del proyecto
 
-Este módulo forma parte de un programa mayor en el [repositorio](https://github.com/LazyHackerOrg/LazyHacker). Se trata de un __escaner de puertos y servicios__ que emplea *nmap* para lograrlo. Finalmente devolverá los equipos escaneados con los puertos y servicios corriendo sobre él.
+Una API REST muy simple para el [proyecto principal](https://github.com/LazyHackerOrg/LazyHacker/). Puesto que mi compañero realizará la API completa, en esta únicamente se muestra un esqueleto de ella.
 
 -------
 
 #### Herramientas para la realización del proyecto:
 
 * **Ruby** como lenguaje de programación
-* Base de Datos *noSQL* **MongoDB**
-* **[MongoMapper](http://mongomapper.com/)** para gestión de DB desde Ruby
+* **Sinatra** como web framework
 * **Heroku** para el despliegue en la nube
-* **Nmap** para el escaneo de puertos
-* **Travis-CI** para integración continua
+* **CodeShip** para integración continua
+
+### Funcionalidad básica
+
+La aplicación se encuentra desplegada en Heroku, siendo accesible en
+[](https://lit-springs-30407.herokuapp.com/). Para comprobar su correcto funcionamiento hay que hacer una petición **get** a **/**.
+Las otras rutas son:
+**/search/:id** devuelve un json con el cve indicado.
+**/service/:service** devuelve un json con los cves que contienen al servicio.
+
