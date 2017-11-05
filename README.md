@@ -24,4 +24,3 @@ Las otras rutas son:
 **/search/:id** devuelve un json con el cve indicado.
 **/service/:service** devuelve un json con los cves que contienen al servicio.
 
-
