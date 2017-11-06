@@ -3,9 +3,7 @@ Infraestructura Virtual
 
 [![Build Status](https://travis-ci.org/patamimbre/IV_Proyecto.svg?branch=master)](https://travis-ci.org/patamimbre/IV_Proyecto)
 
-```
 [![Heroku Deploy](https://www.herokucdn.com/deploy/button.svg)](https://lit-springs-30407.herokuapp.com/)
-```
 
 ### Descripción del proyecto
 
