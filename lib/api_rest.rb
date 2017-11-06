@@ -2,7 +2,7 @@ require 'sinatra'
 require 'json'
 
 get '/' do
-  {'status' => 'ok'}.to_json
+  {'status' => 'OK'}.to_json
 end
 
 get '/search/:id' do |id|
