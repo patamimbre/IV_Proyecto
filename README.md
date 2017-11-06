@@ -7,7 +7,7 @@ Infraestructura Virtual
 
 ### Descripción del proyecto
 
-Una API REST muy simple para el [proyecto principal](https://github.com/LazyHackerOrg/LazyHacker/). Puesto que mi compañero realizará la API completa, en esta únicamente se muestra un esqueleto de ella.
+Una API REST muy simple para el [proyecto principal](https://github.com/LazyHackerOrg/LazyHacker/). Puesto que mi compañero realizará la API completa, en esta únicamente se muestra un esqueleto de ella. Los pasos realizados para el despliegue de una aplicación hecha con **Ruby - Sinatra** se encuentra en [mi repositorio de ejercicios](https://github.com/patamimbre/IV_Trabajos/blob/master/paas.md)
 
 -------
 
@@ -16,7 +16,7 @@ Una API REST muy simple para el [proyecto principal](https://github.com/LazyHack
 * **Ruby** como lenguaje de programación
 * **Sinatra** como web framework 
 * **CodeShip** para integración continua 
-Despliegue https://lit-springs-30407.herokuapp.com/
+  Despliegue https://lit-springs-30407.herokuapp.com/
 ### Funcionalidad básica
 
 La aplicación se encuentra desplegada en Heroku, siendo accesible en
