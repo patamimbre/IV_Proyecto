@@ -14,7 +14,7 @@ Una API REST muy simple para el [proyecto principal](https://github.com/LazyHack
 * **Ruby** como lenguaje de programación
 * **Sinatra** como web framework
 * **Heroku** para el despliegue en la nube
-* **CodeShip** para integración continua
+* **CodeShip** para integración continua 
 
 ### Funcionalidad básica
 
@@ -23,4 +23,3 @@ La aplicación se encuentra desplegada en Heroku, siendo accesible en
 Las otras rutas son:
 **/search/:id** devuelve un json con el cve indicado.
 **/service/:service** devuelve un json con los cves que contienen al servicio.
-
