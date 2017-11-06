@@ -14,10 +14,9 @@ Una API REST muy simple para el [proyecto principal](https://github.com/LazyHack
 #### Herramientas para la realización del proyecto:
 
 * **Ruby** como lenguaje de programación
-* **Sinatra** como web framework
-* Despliegue hecho en **Heroku**
+* **Sinatra** como web framework 
 * **CodeShip** para integración continua 
-
+Despliegue https://lit-springs-30407.herokuapp.com/
 ### Funcionalidad básica
 
 La aplicación se encuentra desplegada en Heroku, siendo accesible en
