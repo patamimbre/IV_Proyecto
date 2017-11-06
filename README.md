@@ -13,7 +13,7 @@ Una API REST muy simple para el [proyecto principal](https://github.com/LazyHack
 
 * **Ruby** como lenguaje de programación
 * **Sinatra** como web framework
-* **Heroku** para el despliegue en la nube
+* Despliegue hecho en **Heroku**
 * **CodeShip** para integración continua 
 
 ### Funcionalidad básica
