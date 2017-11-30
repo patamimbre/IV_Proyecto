@@ -7,6 +7,10 @@ get '/' do
   {'status' => 'OK'}.to_json
 end
 
+get '/status' do
+  {'status' => 'OK'}.to_json
+end
+
 get '/search/:id' do |id|
   if id !~ /\ACVE-\d{4}-\d{4}\z/
     {'status' => 'bad_id'}.to_json
