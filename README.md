@@ -17,9 +17,9 @@ que mi compañero realizará la API completa, en esta únicamente se muestra un 
 * **Ruby** como lenguaje de programación
 * **Sinatra** como web framework 
 * **CodeShip** para integración continua 
-
+* **Disponible en DockerHub** [ https://hub.docker.com/r/patamimbre/iv_proyecto/]( https://hub.docker.com/r/patamimbre/iv_proyecto/)
   Despliegue https://lit-springs-30407.herokuapp.com/
-  Contenedor https://hub.docker.com/r/patamimbre/iv_proyecto/
+  Contenedor https://ivproyecto-yyxnjjtuuu.now.sh/
 
 ### Funcionalidad básica
 
