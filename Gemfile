@@ -5,4 +5,5 @@ gem 'sinatra'
 gem 'rake' 
 gem 'rspec'
 gem 'rack-test'
+gem 'puma'
 
